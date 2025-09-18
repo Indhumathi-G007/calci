@@ -6,27 +6,61 @@ body{
     margin-top: 100px;
     
     
+    
 
 }
-.a{
+
+
+
+
+.b{
+    background-color: gray;
+    HEIGHT:45px;
+    width: 300PX;
+    margin-bottom: 2%;
+    border: 5px;
+   color: white;
+   font-size: 40px ;
+   text-align: right;
+   mix-blend-mode:multiply;
+    
+}
+.circle{
     height: 75px;
     width: 75px;
     background-color: rgb(161, 132, 132);
+transition:background-color 0.5s ease;
    text-align: center;
     border-radius: 260%;
-    margin: 5px;
+    border:none;
     font-size: 20px;
-    margin-left:300px ;
+    
+    cursor :pointer;
+    
     
 
 
 }
-.b{
-    background-color: blanchedalmond;
-    margin-bottom: 50px;
-    border-width:15px;
-    width: 300px;
-    margin-top: 30px;
+.circle:hover{
+    background-color: aqua;
 }
+.c{
+    
+    border:5px;
+    border-color:solid black;
 
+}
+.m{
+    
+    
+  
+    margin: 5px;
+    width:350px;
+    border: 2px solid black;
+    padding:5px;
 
+   
+   
+    
+    
+}
